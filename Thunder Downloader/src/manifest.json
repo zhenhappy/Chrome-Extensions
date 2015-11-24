@@ -1,0 +1,36 @@
+{
+   "background": {
+		"page": "background.html"
+	},
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "style.css" ],
+      "js": [ "npdownload.js" ],
+      "matches": [ "http://*/*", "https://*/*", "ftp://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "zh_CN",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "images/icon_128.png",
+      "16": "images/icon_16.png",
+      "19": "images/icon_19.png",
+      "32": "images/icon_32.png",
+      "48": "images/icon_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDhchcIvXBoH3FgMCuwvHq/u4frfGYiJHaWaKNrsnVRG6/2wlaZaJH1de9FH2gfNE5B2SJWDQMlt0d1373SrbvkW26NnlV/ShmvM+JFqxNp6PdiGCoAXPTD1W3l2AiIjwUrMLY/wtiwNhRA+40KRXfzROvM5T3jsbDz67NHqsbDaQIDAQAB",
+   "name": "__MSG_name__",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "http://*/", "https://*/", "contextMenus", "notifications" ],
+   "plugins": [ {
+      "path": "plugin/download_helper.dll"
+   }, {
+      "path": "plugin/download_helper.so"
+   }, {
+      "path": "plugin/download_helper_64.so"
+   }, {
+      "path": "plugin/download_assistant.plugin"
+   } ],
+   "version": "5.0.2",
+   "manifest_version": 2
+}

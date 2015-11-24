@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Download Assistant Options </title>
+<style>
+  body {
+    margin:10px;
+    font-size:13px;
+    background: #EBEFF9;
+    font-family: arial, sans-serif;
+  }
+  #header {
+    padding-bottom:1em;
+    padding-top:1em;
+  }
+  #header h1 {
+    font-size: 30px;
+    display:inline;
+    color: #3d5d6a;
+    padding-bottom:40px;
+    padding-left:90px;
+    padding-top:70px;
+    background:url(images/icon_48.png) no-repeat 1px 62px;
+  }
+  a {
+    color: #1C7EC5;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  #downloader {
+    border-bottom: 3px dotted #CCDDED;
+  }
+  #downloadPathTitle {
+    border-bottom: 3px dotted #CCDDED;
+  }
+  .downloaderOptionTitle {
+    color: #333333;
+    line-height: 28px;
+    font-size:15px;
+  }
+  p {
+    padding-left:2em;
+    font-size:14px;
+  }
+  .section-header {
+    background:#ebeff9;
+    border-top:1px solid #b5c7de;
+    font-size:99%;
+    padding:3px 0 2px 5px;
+    font-weight:bold;
+    margin-bottom:1em;
+    margin-top:1em;
+  }
+  .contentBox {
+    background-color: #ffffff;
+    border: 3px solid #bec9ce;
+    -webkit-border-radius: 20px 20px;
+    padding: 30px;
+    text-align: left;
+    margin: 50px auto 20px auto;
+    width: 657px;
+  }
+  #footer {
+    text-align: center;
+    font-size: 13px;
+  }
+  table {
+     border-collapse: collapse;
+     width: 657px;
+  }
+  .downloaderItem {
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%,
+        from(#fefefe), to(#eff8fa));
+    height: 27px;
+    border-top: 3px dotted #C1D1E0;
+    border-bottom: 1px solid #C1D1E0;
+    margin-bottom: 10px;
+  }
+  .downloaderItem th {
+    font-size: 12px;
+    color : #1a82c4;
+    height: 27px;
+    border-right: 1px solid #D0D0D0;
+    color: #5e769c;
+  }
+  .th0 {
+    width: 80px;
+    height: 27px;
+    text-align: center;
+  }
+  .th1 {
+    width: 149px;
+    height: 27px;
+  }
+  .th1  div {
+    float: left;
+    padding-left: 17px;
+  }
+  .th2 {
+    width: 337px;
+    height: 27px;
+  }
+  .th2 div {
+    float: left;
+    padding-left: 17px;
+  }
+  .th3 {
+    width: 76px;
+    height: 27px;
+    font-size: 12px;
+  }
+  .th3 .btnDiv {
+    float: right;
+    padding-right: 17px;
+  }
+  #downloaderSetting {
+    font-weight: bolder;
+  }
+  .itemImg {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+  }
+  .itemName {
+    width: 123px;
+    float: left;
+    height: 22px;
+    margin-left: 8px;
+    padding-left: 10px;
+  }
+  .itemCommand {
+    width: 309px;
+    float: left;
+    padding-left: 10px;
+    height: 22px;
+    margin-left: 8px;
+  }
+  button {
+   cursor: pointer;
+  }
+  .downloaderItemContainer {}
+  .downloaderItemContainer tr{
+    height: 41px;
+    border: 0;
+  }
+  input {
+    outline-color: #8bcdf4;
+  }
+  input[type=text] {
+    height: 21px;
+    border: 1px solid #c1d1e0;
+    background: -webkit-gradient(linear, left top, left bottom,
+      from(#edf5f5), to(#fff));
+  }
+  .addURL-Dialog {
+    z-index: 1000;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%,
+        from(#d0e1f3), to(#f5f9fc));
+    width: 285px;
+    height: 155px;
+    border: 1px solid #a2bad4;
+    display: none;
+    position: absolute;
+    -webkit-border-radius: 5px;
+    -webkit-box-shadow:  #ccc 0px 0px 7px 1px;
+  }
+  .addURL-Dialog .body {
+    background-color: White;
+    width: 265px;
+    height: 100px;
+    margin: 10px 10px;
+  }
+  .addURL-Dialog input {
+    width: 217px;
+    margin-top: 10px;
+  }
+  .addURL-Dialog .bottom {
+    height: 50px;
+    width: 285px;
+    margin: auto;
+  }
+ .addURL-Dialog .bottom .btnDiv {
+    float: right;
+    padding-right: 10px;
+  }
+  #urlAddress {
+    font-weight: bold;
+    color: #6587a2;
+  }
+  #downloaderSettingTitle {
+     margin: 20px 0 3px;
+     display: none;
+  }
+  #downloaderOption {
+    padding-left: 16px;
+  }
+  #downloaderOption span {
+    padding-left: 5px;
+  }
+  #downloaderOption div {
+    padding: 3px 0 2px ;
+    height: 30px;
+  }
+  #downloaderOption > div > label > * {
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  #downloaderOption > div > label > span {
+    white-space: nowrap;
+    width: 200px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .tip_failed {
+    color: #ffffff;
+    background: #ff8080;
+    height:22px;
+    line-height:22px
+  }
+  .column-show {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 2em;
+  }
+</style>
+</head>
+<body>
+<div class="contentBox">
+  <div id="header">
+    <h1><span id="pageTitle"></span></h1>
+  </div>
+  <h4 id="downloader" class="downloaderOptionTitle"></h4>
+  <table><tr><td>
+    <div id="downloaderOption"></div>
+  </td><td> </td></tr>
+  </table>
+  <div id="downloaderSettingTitle">
+   <table><tr>
+   <td style="width: 251px;"> <span id="downloaderSetting" class="downloaderOptionTitle">
+   </span></td><td style="width:386px"><div id="tipContainer"></div></td>
+       </tr>
+   </table>  </div>
+  <div id="downloaderContainer" style="display: none;">
+    <div class="downloaderItem">
+      <table>
+        <tr>
+          <th class="th0"><span id="downloaderIcon"></span></th>
+          <th class="th1"><div id="downloaderName"></div></th>
+          <th class="th2"><div  id="downloaderCommand"></div></th>
+          <th class="th3" style="border: 0;"><div></div></th>
+        </tr>
+      </table>
+    </div>
+    <div class="downloaderItemContainer" id='downloaderContainerItem'>
+      <div>
+        <table id="downloaderlist"></table>
+      </div>
+      <div>
+        <table>
+          <tr>
+            <td class="th0"><img id="settingImg" class="itemImg"
+                src="images/icon-normal.png"></td>
+            <td class="th1"><input id="settingName" class="itemName"
+                type="text" maxLength="30"></td>
+            <td class="th2"><input id="settingCommand" class="itemCommand"
+                type="text" ></td>
+            <td class="th3">
+              <div class="btnDiv">
+                <button type="button" id="addDownloader" style="width: 55px; height: 25px;"></button>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div id="downloadPathSetting">
+    <h4 id="downloadPathTitle" class="downloaderOptionTitle">Set Download Path</h4>
+    <div style="padding-left: 19px; line-height: 25px">
+      <div id="defaultPath" style="margin-left:4px;">Default download path</div>
+      <input type="text" readonly="" id="downloadPath" size="50">
+      <button id="setDownloadPath">Browse...</button>
+      <button id="openDownloadPath">Go to folder</button>
+    </div>
+  </div>
+  <div>
+    <div id="addURLDialog" class="addURL-Dialog">
+      <div class="body">
+        <div style="padding:20px">
+          <div id="urlAddress"></div>
+          <input type="text" id="iconURL" style="padding-left: 6px;">
+        </div>
+      </div>
+      <div class="bottom"><div class="btnDiv">
+        <button  id="addURLOkBtn"></button>
+        <button  id="addURLCancelBtn"></button>
+      </div></div>
+    </div>
+  </div>
+  <div id="closeBtn" style="margin: 14px 0 30px 0;">
+    <button  id="saveAndClose"  onclick="saveAndClose()"></button>
+  </div>
+  <div style="height: 50px;" id="bottomDiv"></div>
+</div>
+<div id="footer" style="margin: 30px 0 0 0;">&copy;2011 Google</div>
+<script type="text/javascript" src="options.js"></script>
+</body>
+</html>

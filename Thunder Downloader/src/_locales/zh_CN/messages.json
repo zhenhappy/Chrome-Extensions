@@ -1,0 +1,320 @@
+{
+   "add_downloader": {
+      "message": "\u6DFB\u52A0"
+   },
+   "add_url_cancel_btn": {
+      "message": "\u53D6\u6D88"
+   },
+   "add_url_ok_btn": {
+      "message": "\u786E\u5B9A"
+   },
+   "aria2c": {
+      "message": "Aria 2"
+   },
+   "axel": {
+      "message": "Axel Download Accelerator"
+   },
+   "bitcomet_windows": {
+      "message": "BitComet"
+   },
+   "can_not_add_downloader": {
+      "message": "\u4E0B\u8F7D\u5668\u65E0\u6CD5\u6DFB\u52A0\u3002"
+   },
+   "chrome_downloader": {
+      "message": "Chrome\u5185\u7F6E\u4E0B\u8F7D\u5668"
+   },
+   "curl": {
+      "message": "cURL"
+   },
+   "dap_windows": {
+      "message": "Download Accelerator Plus"
+   },
+   "default_path": {
+      "message": "\u9ED8\u8BA4\u4E0B\u8F7D\u8DEF\u5F84\uFF08\u53EA\u5BF9Aria 2\uFF0CAxel Download Accelerator\uFF0CcURL\u548CWget\u6709\u6548\uFF09\uFF1A"
+   },
+   "default_title": {
+      "message": "\u4E0B\u8F7D\u52A9\u624B"
+   },
+   "delete": {
+      "message": "\u5220\u9664"
+   },
+   "description": {
+      "message": "\u4F7F\u7528\u5FEB\u8F66\u3001\u8FF7\u4F60\u5FEB\u8F66\u3001\u8FC5\u96F7\u3001\u8FF7\u4F60\u8FC5\u96F7\u3001QQ\u65CB\u98CE\u3001\u7535\u9A74\u3001Orbit\u3001Internet Download Manager\u6216Free Download Manager\u4E0B\u8F7D\u7F51\u9875\u94FE\u63A5\u3002"
+   },
+   "disable": {
+      "message": "\u7981\u7528\u53F3\u952E\u4E0B\u8F7D\u83DC\u5355\uFF0C\u4F7F\u7528Chrome\u9ED8\u8BA4\u53F3\u952E\u83DC\u5355"
+   },
+   "download_all_with_bitcomet": {
+      "message": "\u4F7F\u7528BitComet\u4E0B\u8F7D\u6240\u6709\u94FE\u63A5"
+   },
+   "download_all_with_dap": {
+      "message": "\u4F7F\u7528DAP\u4E0B\u8F7D\u6240\u6709\u94FE\u63A5"
+   },
+   "download_all_with_download_master": {
+      "message": "\u4F7F\u7528Download Master\u4E0B\u8F7D\u6240\u6709\u94FE\u63A5"
+   },
+   "download_all_with_fdm": {
+      "message": "\u4F7F\u7528FDM\u4E0B\u8F7D\u6240\u6709\u94FE\u63A5"
+   },
+   "download_all_with_flashget": {
+      "message": "\u4F7F\u7528\u5FEB\u8F66\u4E0B\u8F7D\u6240\u6709\u94FE\u63A5"
+   },
+   "download_all_with_folx": {
+      "message": "\u4F7F\u7528Folx\u4E0B\u8F7D\u6240\u6709\u94FE\u63A5"
+   },
+   "download_all_with_getgo": {
+      "message": "\u4F7F\u7528GetGo\u4E0B\u8F7D\u6240\u6709\u94FE\u63A5"
+   },
+   "download_all_with_idm": {
+      "message": "\u4F7F\u7528IDM\u4E0B\u8F7D\u6240\u6709\u94FE\u63A5"
+   },
+   "download_all_with_igetter": {
+      "message": "\u4F7F\u7528iGetter\u4E0B\u8F7D\u6240\u6709\u94FE\u63A5"
+   },
+   "download_all_with_leech": {
+      "message": "\u4F7F\u7528Leech\u4E0B\u8F7D\u6240\u6709\u94FE\u63A5"
+   },
+   "download_all_with_md": {
+      "message": "\u4F7F\u7528Mass Downloader\u4E0B\u8F7D\u6240\u6709\u94FE\u63A5"
+   },
+   "download_all_with_mini_flashget": {
+      "message": "\u4F7F\u7528\u8FF7\u4F60\u5FEB\u8F66\u4E0B\u8F7D\u6240\u6709\u94FE\u63A5"
+   },
+   "download_all_with_orbit": {
+      "message": "\u4F7F\u7528Orbit\u4E0B\u8F7D\u6240\u6709\u94FE\u63A5"
+   },
+   "download_all_with_qq_whirlwind": {
+      "message": "\u4F7F\u7528QQ\u65CB\u98CE\u4E0B\u8F7D\u6240\u6709\u94FE\u63A5"
+   },
+   "download_all_with_speed_download": {
+      "message": "\u4F7F\u7528Speed Download\u4E0B\u8F7D\u6240\u6709\u94FE\u63A5"
+   },
+   "download_all_with_thunder": {
+      "message": "\u4F7F\u7528\u8FC5\u96F7\u4E0B\u8F7D\u6240\u6709\u94FE\u63A5"
+   },
+   "download_all_with_thunder_lite": {
+      "message": "\u4F7F\u7528\u8FC5\u96F7\u7CBE\u7B80\u7248\u4E0B\u8F7D\u6240\u6709\u94FE\u63A5"
+   },
+   "download_all_with_wget": {
+      "message": "\u4F7F\u7528Wget\u4E0B\u8F7D\u6240\u6709\u94FE\u63A5"
+   },
+   "download_finish_info": {
+      "message": "\u4E0B\u8F7D\u7ED3\u675F\u3002"
+   },
+   "download_master_windows": {
+      "message": "Download Master"
+   },
+   "download_path_title": {
+      "message": "\u8BBE\u7F6E\u4E0B\u8F7D\u8DEF\u5F84\uFF1A"
+   },
+   "downloader": {
+      "message": "\u9009\u62E9\u9ED8\u8BA4\u4E0B\u8F7D\u5668\uFF1A"
+   },
+   "downloader_command": {
+      "message": "\u547D\u4EE4\u884C"
+   },
+   "downloader_icon": {
+      "message": "\u56FE\u6807"
+   },
+   "downloader_name": {
+      "message": "\u540D\u79F0"
+   },
+   "downloader_setting": {
+      "message": "\u6DFB\u52A0\u66F4\u591A\u4E0B\u8F7D\u5668\uFF1A"
+   },
+   "emule_windows": {
+      "message": "\u7535\u9A74"
+   },
+   "fdm_windows": {
+      "message": "Free Download Manager"
+   },
+   "flashget_linux": {
+      "message": "\u5FEB\u8F66"
+   },
+   "flashget_windows": {
+      "message": "\u5FEB\u8F66"
+   },
+   "folx_mac": {
+      "message": "Folx"
+   },
+   "getgo_windows": {
+      "message": "GetGo Download Manager"
+   },
+   "gwget": {
+      "message": "Gwget Download Manager"
+   },
+   "icon_url": {
+      "message": "\u8BF7\u8F93\u5165URL\u5730\u5740"
+   },
+   "idm_windows": {
+      "message": "Internet Download Manager"
+   },
+   "igetter_mac": {
+      "message": "iGetter"
+   },
+   "jdownloader": {
+      "message": "JDownloader"
+   },
+   "leech_mac": {
+      "message": "Leech"
+   },
+   "md_windows": {
+      "message": "Mass Downloader"
+   },
+   "menu_aria2c": {
+      "message": "\u4F7F\u7528Aria 2\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_axel": {
+      "message": "\u4F7F\u7528Axel Download Accelerator\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_bitcomet": {
+      "message": "\u4F7F\u7528BitComet\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_chrome": {
+      "message": "\u4F7F\u7528Chrome\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_copy_link": {
+      "message": "\u590D\u5236\u94FE\u63A5\u5730\u5740"
+   },
+   "menu_curl": {
+      "message": "\u4F7F\u7528cURL\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_custom": {
+      "message": "\u4F7F\u7528%s\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_dap": {
+      "message": "\u4F7F\u7528DAP\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_disable": {
+      "message": "\u7981\u7528\u53F3\u952E\u4E0B\u8F7D\u83DC\u5355"
+   },
+   "menu_download_master": {
+      "message": "\u4F7F\u7528Download Master\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_emule": {
+      "message": "\u4F7F\u7528\u7535\u9A74\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_fdm": {
+      "message": "\u4F7F\u7528FDM\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_flashget": {
+      "message": "\u4F7F\u7528\u5FEB\u8F66\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_folx": {
+      "message": "\u4F7F\u7528Folx\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_getgo": {
+      "message": "\u4F7F\u7528GetGo\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_gwget": {
+      "message": "\u4F7F\u7528Gwget\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_idm": {
+      "message": "\u4F7F\u7528IDM\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_igetter": {
+      "message": "\u4F7F\u7528iGetter\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_jdownloader": {
+      "message": "\u4F7F\u7528JDownloader\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_leech": {
+      "message": "\u4F7F\u7528Leech\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_md": {
+      "message": "\u4F7F\u7528Mass Downloader\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_mini_flashget": {
+      "message": "\u4F7F\u7528\u8FF7\u4F60\u5FEB\u8F66\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_mini_thunder": {
+      "message": "\u4F7F\u7528\u8FF7\u4F60\u8FC5\u96F7\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_orbit": {
+      "message": "\u4F7F\u7528Orbit\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_qq_whirlwind": {
+      "message": "\u4F7F\u7528QQ\u65CB\u98CE\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_speed_download": {
+      "message": "\u4F7F\u7528Speed Download\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_thunder": {
+      "message": "\u4F7F\u7528\u8FC5\u96F7\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_thunder_lite": {
+      "message": "\u4F7F\u7528\u8FC5\u96F7\u7CBE\u7B80\u7248\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "menu_wget": {
+      "message": "\u4F7F\u7528Wget\u4E0B\u8F7D\u94FE\u63A5"
+   },
+   "mini_flashget_windows": {
+      "message": "\u8FF7\u4F60\u5FEB\u8F66"
+   },
+   "mini_thunder_windows": {
+      "message": "\u8FF7\u4F60\u8FC5\u96F7"
+   },
+   "name": {
+      "message": "\u4E0B\u8F7D\u52A9\u624B"
+   },
+   "open_download_path": {
+      "message": "\u6253\u5F00\u6587\u4EF6\u5939"
+   },
+   "option": {
+      "message": "\u8BBE\u7F6E"
+   },
+   "orbit_windows": {
+      "message": "Orbit"
+   },
+   "page_title": {
+      "message": "\u4E0B\u8F7D\u52A9\u624B\u9009\u9879"
+   },
+   "qq_whirlwind_windows": {
+      "message": "QQ\u65CB\u98CE"
+   },
+   "repeat_add_downloader": {
+      "message": "\u60A8\u5DF2\u6DFB\u52A0\u8FC7\u8FD9\u4E2A\u4E0B\u8F7D\u5668\u3002"
+   },
+   "save_and_close": {
+      "message": "\u4FDD\u5B58\u5E76\u5173\u95ED"
+   },
+   "set_download_dialog_title": {
+      "message": "\u9009\u62E9\u4E0B\u8F7D\u8DEF\u5F84"
+   },
+   "set_download_path": {
+      "message": "\u6D4F\u89C8..."
+   },
+   "setting_command": {
+      "message": "\u4F8B\u5982\uFF1Acurl -o $FILE_NAME -e \"$REFERER\" \"$URL\""
+   },
+   "setting_name": {
+      "message": "\u8BF7\u8F93\u5165\u4E0B\u8F7D\u5668\u540D\u79F0"
+   },
+   "speed_download_mac": {
+      "message": "Speed Download"
+   },
+   "thunder_lite_windows": {
+      "message": "\u8FC5\u96F7\u7CBE\u7B80\u7248"
+   },
+   "thunder_windows": {
+      "message": "\u8FC5\u96F7"
+   },
+   "tip_no_downloader": {
+      "message": "\u60A8\u672A\u5B89\u88C5\u4EFB\u4F55\u4E0B\u8F7D\u5668\u3002\u8981\u4F7F\u7528\u4E0B\u8F7D\u5168\u90E8\u94FE\u63A5\u529F\u80FD\uFF0C\u8BF7\u5B89\u88C5\u5FEB\u8F66\u6216\u8005\u8FC5\u96F7\u3002"
+   },
+   "tip_no_downloader1": {
+      "message": "\u60A8\u53EA\u5B89\u88C5\u4E86\u8FF7\u4F60\u8FC5\u96F7\u3002\u8981\u4F7F\u7528\u4E0B\u8F7D\u5168\u90E8\u94FE\u63A5\u529F\u80FD\uFF0C\u8BF7\u5B89\u88C5\u5FEB\u8F66\u6216\u8005\u8FC5\u96F7\u3002"
+   },
+   "tip_no_link": {
+      "message": "\u6B64\u9875\u9762\u6CA1\u6709\u94FE\u63A5\u53EF\u4F9B\u4E0B\u8F7D\u3002"
+   },
+   "tip_special": {
+      "message": "\u6B64\u9875\u9762\u662F\u7279\u6B8A\u9875\u9762\uFF0C\u65E0\u6CD5\u4F7F\u7528\u4E0B\u8F7D\u52A9\u624B\u3002"
+   },
+   "url_address": {
+      "message": "\u4E0B\u8F7D\u5668\u56FE\u6807"
+   },
+   "wget": {
+      "message": "Wget"
+   }
+}
